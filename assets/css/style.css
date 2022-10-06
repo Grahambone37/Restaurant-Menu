@@ -44,7 +44,7 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.6em;
-    color: green;
+    color: rgb(0, 190, 0);
     margin-right: 25px;
 }
 
@@ -72,6 +72,7 @@ nav a:hover {
     font-size: 2em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
@@ -83,4 +84,9 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.locations {
+    list-style-type: none;
+    text-align: center;
 }
